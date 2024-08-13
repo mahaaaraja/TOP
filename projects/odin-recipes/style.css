@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 10px 50px;
+    gap: 40px;
+}
+
+.input {
+    border: none;
+    border-radius: 8px;
+    width: 400px;
+    padding: 4px 6px;
+}
+
+input {
+    width: 100%;
+    color: blue;
+    border: 2px solid rgb(227, 178, 97);
+    border-radius: 8px;
+    padding: 8px 12px;
+    outline: none;
+}
+
+.website-banner {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, rgb(230, 164, 58) 0%, rgb(255, 255, 255) 200%);
+    color: white;
+    font-size: 46px;
+    justify-content: center;
+    font-weight: 500;
+    padding: 20px;
+    padding-left: 40px;
+    height: 200px;
+    font-family: "Pacifico", cursive;
+    line-height: 1em;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.food-recipe-even, .food-recipe-odd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px 100px;
+    flex: 0 1 1;
+    flex-flow: row wrap;
+}
+
+.food-recipe-odd {
+    background: linear-gradient(to left, rgb(214, 130, 14) 0%, rgb(255, 255, 255) 150%);
+    color: white;
+    padding: 20px 0;
+}
+
+.food-recipe-even {
+    background: linear-gradient(to right, rgb(214, 130, 14) 0%, rgb(255, 255, 255) 150%);
+    color: white;
+    padding: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.food-image {
+    width: 400px;
+    height: 300px;
+    display: flex;
+}
+
+.food-image > img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    object-fit: cover;
+}
+
+.recipe-intro {
+    flex: 0 1 500px;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+summary {
+    font-size: large;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+body {
+    background: linear-gradient(to left, #ffdab9 0%, rgb(255, 255, 255) 150%);
+}
+
+.see-full-recipe {
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    transition: box-shadow 0.15s;
+}
+
+.see-full-recipe:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px 0;
+}
