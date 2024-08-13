@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, rgb(230, 164, 58) 0%, rgb(255, 255, 255) 150%);
+    padding: 10px 100px;
+    padding-left: 100px;
+}
+
+.website-name {
+    font-family: "Pacifico", cursive;
+    font-size: large;
+    font-weight: 500;
+    color: white;
+}
+
+.recipe-banner {
+    display: flex;
+    flex-flow: wrap;
+    background: linear-gradient(to right, rgb(230, 164, 58) 0%, rgb(255, 255, 255) 150%);
+    padding: 20px 100px;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.recipe-content {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 500px;
+}
+
+.recipe-image {
+    width: 400px;
+    height: 300px;
+    display: flex;
+}
+
+.recipe-name {
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.recipe-image > img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+}
+
+.recipe {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 50px;
+    margin: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ingridients {
+    flex: 0 1 400px;
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+ul, ol {
+    padding: 30px;
+    padding-left: 40px;
+}
+
+li::marker {
+    font-weight: bold;
+    font-family: "Pacifico", cursive;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.steps {
+    flex: 1 1 100px;
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.heading {
+    font-size: x-large;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
